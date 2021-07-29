@@ -4,7 +4,7 @@
     --bg-color: #fdfcfb;
     --textolor: #3a3a3a;
     --divider-color: rgba(0,0,0,0.1);
-    --salmon-color: #F87171;
+    --salmon-color: #EF4444;
     --body-font: "iA Writer Mono S";
 }
 
@@ -52,13 +52,17 @@ h3 {
 }
 
 p {
-    font-family: "iA Writer Mono S";
+    font-family: var(--body-font);
     font-style: normal;
 }
 
 .rm-page-ref {
       color: var(--salmon-color);
 }
+
+.references>ul>li>a {
+      color: var(--salmon-color);
+      font-family: var(--body-font);
 
 footer {
     border-top: 1px solid var(--divider-color);
