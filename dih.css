@@ -1,4 +1,4 @@
-.content-wrapper {
+body>header, .main, .references, footer {
     margin: auto;
     max-width: 850px;
   }
@@ -16,3 +16,9 @@ h1 {
     margin-top: 1.5rem;
 }
 
+footer {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    padding: 20px 0 40px 0;
+    font-size: 14px;
+    text-align: right;
+}
