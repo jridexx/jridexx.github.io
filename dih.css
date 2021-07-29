@@ -69,6 +69,10 @@ a {
       color: var(--salmon-color);
 }
 
+.references {
+    margin-top: 40px;   
+}
+
 footer {
     border-top: 1px solid var(--divider-color);
     margin-top: 40px;
