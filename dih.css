@@ -1,21 +1,54 @@
-:root {
-            --bg-color: #fdfcfb;
-            --text-color: #3a3a3a;
-            --link-color: #000;
-            --code-block-bg: #f3f3f3;
-            --header-color: rgba(0, 0, 0, 0.65);
-            --divider-color: rgba(0, 0, 0, 0.1);
-            --lighter-divider-color: rgba(0, 0, 0, 0.05);
-            --body-font: "Degular Text", "Courier New", monospace;
-            --header-font: "Degular Display", Helvetica, sans-serif;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-        }
-
-        li, p {
-            text-align: justify;
-            font-family: var(--body-font);
-        }
+html{
+	font-family:serif;
+	font-size:137.5%;
+	-webkit-font-smoothing:antialiased
+}
+p{
+	line-height:1.5rem;
+	margin-top:1.5rem;
+	margin-bottom:0
+}
+ol,ul{
+	margin-top:1.5rem;
+	margin-bottom:1.5rem
+}
+ol li,ul li{
+	line-height:1.5rem
+}
+ol ol,ol ul,ul ol,ul ul{
+	margin-top:0;
+	margin-bottom:0
+}
+blockquote{
+	line-height:1.5rem;
+	margin-top:1.5rem;
+	margin-bottom:1.5rem
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:sans-serif;
+	margin-top:1.5rem;
+	margin-bottom:0;
+	line-height:1.5rem
+}
+h1{
+	font-size:4.242rem;
+	line-height:4.5rem;
+	margin-top:3rem
+}
+h2{
+	font-size:2.828rem;
+	line-height:3rem;
+	margin-top:3rem
+}
+h3{
+	font-size:1.414rem
+}
+h4{
+	font-size:.707rem
+}
+h5{
+	font-size:.4713333333333333rem
+}
+h6{
+	font-size:.3535rem
+}
