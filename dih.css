@@ -56,13 +56,12 @@ p {
     font-style: normal;
 }
 
-.rm-page-ref {
-      color: var(--salmon-color);
+a {
+    color: var(--salmon-color);
 }
 
-.references>a {
+.rm-page-ref {
       color: var(--salmon-color);
-      font-family: var(--body-font);
 }
 
 footer {
