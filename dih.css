@@ -3,9 +3,16 @@
     max-width: 850px;
   }
 
-header {
+body>header {
     border-bottom: 1px solid rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+h1 {
+    font-size: 2.147rem;
+    line-height: 2.8rem;
+    margin-top: 1.5rem;
+}
+
