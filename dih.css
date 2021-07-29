@@ -60,7 +60,7 @@ p {
       color: var(--salmon-color);
 }
 
-.references>ul>li>a {
+.references>a {
       color: var(--salmon-color);
       font-family: var(--body-font);
 
