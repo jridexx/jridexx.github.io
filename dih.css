@@ -4,7 +4,7 @@
     --bg-color: #fdfcfb;
     --textolor: #3a3a3a;
     --divider-color: rgba(0,0,0,0.1);
-    
+    --body-font: "iA Writer Mono S";
 }
 
 body>header, .main, .references, footer {
@@ -24,7 +24,9 @@ header>a>h1 {
 }
 
 header>div>a {
-    font-size: .9rem;
+    font-size: 15px;
+    font-family: var(--body-font);
+    margin-left: 20px;
     text-decoration: none;
 }
 
