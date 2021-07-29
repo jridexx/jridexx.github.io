@@ -1,10 +1,17 @@
+:root {
+    --bg-color: #fdfcfb;
+    --textolor: #3a3a3a;
+    --divider-color: rgba(0,0,0,0.1);
+    
+}
+
 body>header, .main, .references, footer {
     margin: auto;
     max-width: 850px;
   }
 
 body>header {
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid var(--divider-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +24,7 @@ h1 {
 }
 
 footer {
-    border-top: 1px solid rgba(0,0,0,0.1);
+    border-top: 1px solid var(--divider-color);
     padding: 20px 0 40px 0;
     font-size: 14px;
     text-align: right;
