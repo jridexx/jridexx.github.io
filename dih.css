@@ -60,10 +60,6 @@ p {
       color: var(--salmon-color);
 }
 
-.references>a {
-      color: var(--salmon-color);
-      font-family: var(--body-font);
-
 footer {
     border-top: 1px solid var(--divider-color);
     padding: 20px 0 40px 0;
