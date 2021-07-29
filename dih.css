@@ -28,6 +28,16 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-family: "iA Writer Duo S";
+    font-style: normal;
+}
+
+p {
+    font-family: "iA Writer Mono S";
+    font-style: normal;
+}
+
 footer {
     border-top: 1px solid var(--divider-color);
     padding: 20px 0 40px 0;
