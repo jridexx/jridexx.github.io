@@ -51,7 +51,7 @@ h3 {
     font-style: normal;
 }
 
-p {
+p, li {
     font-family: var(--body-font);
     font-style: normal;
 }
