@@ -9,3 +9,13 @@
             --body-font: "Degular Text", "Courier New", monospace;
             --header-font: "Degular Display", Helvetica, sans-serif;
         }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        li, p {
+            text-align: justify;
+            font-family: var(--body-font);
+        }
