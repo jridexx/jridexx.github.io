@@ -20,11 +20,11 @@ body>header {
 }
 
 header>a>h1 {
-    font-size: .75rem;
+    font-size: .9rem;
 }
 
 header>div>a {
-    font-size: .75rem;
+    font-size: .9rem;
     text-decoration: none;
 }
 
