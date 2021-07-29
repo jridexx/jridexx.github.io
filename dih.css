@@ -20,7 +20,7 @@ body>header {
     align-items: center;
 }
 
-header>a>h1 {
+header>a {
     font-size: 1rem;
     text-decoration: none;
 }
