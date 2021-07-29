@@ -71,6 +71,7 @@ a {
 
 footer {
     border-top: 1px solid var(--divider-color);
+    margin-top: 40px;
     padding: 20px 0 40px 0;
     font-size: 14px;
     text-align: right;
