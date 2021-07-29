@@ -19,6 +19,15 @@ body>header {
     align-items: center;
 }
 
+header>a>h1 {
+    font-size: .75rem;
+}
+
+header>div>a {
+    font-size: .75rem;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 2.147rem;
     line-height: 2.8rem;
@@ -29,6 +38,11 @@ h1 {
 }
 
 h2 {
+    font-family: "iA Writer Duo S";
+    font-style: normal;
+}
+
+h3 {
     font-family: "iA Writer Duo S";
     font-style: normal;
 }
