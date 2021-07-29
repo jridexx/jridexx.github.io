@@ -1,3 +1,5 @@
+@import url('https://fonts.rcvd.io/iA Writer/stylesheet.css');
+
 :root {
     --bg-color: #fdfcfb;
     --textolor: #3a3a3a;
@@ -21,6 +23,9 @@ h1 {
     font-size: 2.147rem;
     line-height: 2.8rem;
     margin-top: 1.5rem;
+    font-family: "iA Writer Quattro S";
+    font-style: normal;
+    font-weight: bold;
 }
 
 footer {
@@ -35,4 +40,3 @@ ul>li {
     margin: 0;
 }
     
-}
