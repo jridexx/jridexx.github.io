@@ -70,6 +70,10 @@ a {
     color: var(--salmon-color);
 }
 
+img {
+    margin: 0 auto;    
+}
+
 .rm-page-ref {
       color: var(--salmon-color);
 }
