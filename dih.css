@@ -2,7 +2,7 @@
 
 :root {
     --bg-color: #fdfcfb;
-    --textolor: #3a3a3a;
+    --text-color: #3a3a3a;
     --divider-color: rgba(0,0,0,0.1);
     --salmon-color: #EF4444;
     --body-font: "iA Writer Mono S";
@@ -33,6 +33,11 @@ header>div>a {
     font-family: var(--body-font);
     margin-left: 20px;
     text-decoration: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 h1 {
