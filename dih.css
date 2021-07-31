@@ -101,4 +101,8 @@ ul>li {
     list-style: none;
     margin: 20px;
 }
+
+ul {
+ padding-inline-start: 20px;   
+}
     
