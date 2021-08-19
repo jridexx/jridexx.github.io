@@ -5,8 +5,11 @@
     --text-color: #3a3a3a;
     --divider-color: rgba(0,0,0,0.1);
     --salmon-color: #EF4444;
+    --test-color: #FC21BE;
     --body-font: "iA Writer Mono S";
 }
+
+/*Salmon color is applied to many specific tags out of need to override styles coming from image preview plugin*/
 
 body>header, .main, .references, footer {
     margin: auto;
@@ -23,6 +26,12 @@ body>header {
 header>a>h1 {
     font-size: 1rem;
     color: var(--salmon-color);
+	
+    &:hover {
+    color: var(--test-color);
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }
 
 header>a {
