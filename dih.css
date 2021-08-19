@@ -26,12 +26,12 @@ body>header {
 header>a>h1 {
     font-size: 1rem;
     color: var(--salmon-color);
-	
-    &:hover {
+}
+
+header>a>h1:hover {
     color: var(--test-color);
-    cursor: pointer;
-    text-decoration: underline;
-  }
+    cursor: auto;
+    text-decoration: none;
 }
 
 header>a {
