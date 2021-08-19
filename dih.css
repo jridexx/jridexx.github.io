@@ -81,8 +81,17 @@ img {
       color: var(--salmon-color);
 }
 
+.rm-alias {
+      color: var(--salmon-color);
+}	
+
 .references {
     margin-top: 40px;   
+}
+
+.references>a {
+    text-decoration: none;
+    color: var(--salmon-color);
 }
 
 footer {
