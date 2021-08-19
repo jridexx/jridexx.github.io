@@ -68,7 +68,7 @@ p, li {
     line-height: 1.6;
 }
 
-a {
+p>a {
     color: var(--salmon-color);
 }
 
