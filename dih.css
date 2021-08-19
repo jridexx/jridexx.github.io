@@ -34,6 +34,7 @@ header>div>a {
     font-family: var(--body-font);
     margin-left: 20px;
     text-decoration: none;
+    color: var(--salmon-color);
 }
 
 body {
