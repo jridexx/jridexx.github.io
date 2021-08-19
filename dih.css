@@ -89,7 +89,7 @@ img {
     margin-top: 40px;   
 }
 
-.references>ul>li>a {
+ul>li>a {
     text-decoration: none;
     color: var(--salmon-color);
 }
