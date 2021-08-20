@@ -23,12 +23,12 @@ body>header {
     align-items: center;
 }
 
-header>a>h1 {
+header>h1 {
     font-size: 1rem;
     color: var(--salmon-color);
 }
 
-/*Pending matter*/
+/*Pending matter, may not be needed anymore, still connected to other styling aberrations*/
 
 header>a>h1:hover {
     color: var(--test-color);
