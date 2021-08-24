@@ -31,13 +31,12 @@ header h1 {
 
 /*Pending matter, may not be needed anymore, still connected to other styling aberrations*/
 
-header>a>h1:hover {
-    color: var(--test-color);
-    cursor: auto;
+header>a {
     text-decoration: none;
 }
 
-header>a {
+header>a:hover {
+    color: var(--test-color);
     text-decoration: none;
 }
 
@@ -89,9 +88,10 @@ img {
     width: 100%;
 }
 
-.rm-page-ref {
-      color: var(--salmon-color);
-}
+/*overtaken by p>a*/
+/*.rm-page-ref {*/
+/*      color: var(--salmon-color);*/
+/*}*/
 
 .rm-alias {
       color: var(--salmon-color);
