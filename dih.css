@@ -36,7 +36,7 @@ header a {
 }
 
 header>a:hover {
-    color: var(--test-color);
+    color: var(--salmon-color);
     text-decoration: none;
 }
 
