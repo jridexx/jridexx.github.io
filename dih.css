@@ -26,13 +26,13 @@ body>header {
 header h1 {
     font-size: 1.1rem;
     margin-top: 0;
-    color: var(--salmon-color);
 }
 
 /*Pending matter, may not be needed anymore, still connected to other styling aberrations*/
 
-header>a {
+header a {
     text-decoration: none;
+    color: var(--salmon-color);
 }
 
 header>a:hover {
@@ -83,15 +83,20 @@ p>a {
     color: var(--salmon-color);
 }
 
+p>a:hover {
+    color: var(--salmon-color);
+    text-decoration: none;
+}
+
 img {
     margin: 0 auto;
     width: 100%;
 }
 
-/*overtaken by p>a*/
-/*.rm-page-ref {*/
-/*      color: var(--salmon-color);*/
-/*}*/
+
+.rm-page-ref {
+      color: var(--salmon-color);
+}
 
 .rm-alias {
       color: var(--salmon-color);
