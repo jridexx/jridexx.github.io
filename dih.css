@@ -53,8 +53,8 @@ body {
     color: var(--text-color);
 }
 
-h1 {
-    font-size: 2.147rem;
+.main h1 {
+    font-size: 2.15rem;
     line-height: 2.8rem;
     margin-top: 1.5rem;
     font-family: "iA Writer Quattro S";
