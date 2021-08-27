@@ -83,11 +83,11 @@ p, li {
     line-height: 1.6;
 }
 
-p>a {
+li a {
     color: var(--salmon-color);
 }
 
-p>a:hover {
+li a:hover {
     color: var(--salmon-color);
     text-decoration: none;
 }
