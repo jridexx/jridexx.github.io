@@ -75,6 +75,10 @@ h2>.rm-page-ref {
     text-decoration: none;
 }
 
+h2>.rm-alias {
+    text-decoration: none;
+}
+
 
 h3 {
     font-family: "iA Writer Duo S";
