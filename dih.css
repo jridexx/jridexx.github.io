@@ -106,15 +106,6 @@ img {
     width: 100%;
 }
 
-
-.rm-page-ref {
-      color: var(--salmon-color);
-}
-
-.rm-alias {
-      color: var(--salmon-color);
-}	
-
 .references {
     margin-top: 40px;   
 }
