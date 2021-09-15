@@ -55,7 +55,6 @@ header>div>a {
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-size: 1 rem;
 }
 
 .main h1 {
@@ -99,6 +98,7 @@ p, li {
     font-style: normal;
     text-align: justify;
     line-height: 1.6;
+    font-size: 1 rem;
 }
 
 li a {
