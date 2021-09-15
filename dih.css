@@ -71,11 +71,11 @@ h2 {
     font-style: normal;
 }
 
-h2>.rm-page-ref {
+h2 .rm-page-ref {
     text-decoration: none;
 }
 
-h2>.rm-alias {
+h2 .rm-alias {
     text-decoration: none;
 }
 
