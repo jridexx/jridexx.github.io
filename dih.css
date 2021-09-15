@@ -55,6 +55,7 @@ header>div>a {
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    font-size: 1 rem;
 }
 
 .main h1 {
