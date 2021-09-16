@@ -130,7 +130,7 @@ footer {
     border-top: 1px solid var(--divider-color);
     margin-top: 40px;
     padding: 20px 0 40px 0;
-    font-size: 14px;
+    font-size: 1.1rem;
     text-align: right;
     font-family: var(--body-font);
 }
