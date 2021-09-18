@@ -154,6 +154,7 @@ ul {
 .rm-bq {
    background-color: var(--bquote-color);
    padding: 1em 1.3em 1em 1.5em;
+   font-style: italic;
 }
     
 @media only screen and (max-width:600px){
