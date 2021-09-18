@@ -6,7 +6,7 @@
     --divider-color: rgba(0,0,0,0.1);
     --salmon-color: #EF4444;
     --test-color: #FC21BE;
-    --bquote-color: #F2F3C1;
+    --bquote-color: #E4D8D8;
     --body-font: "iA Writer Mono S";
 }
 
@@ -153,7 +153,7 @@ ul {
 
 .rm-bq {
    background-color: var(--bquote-color);
-   padding: 1em, 1.2em, 1em, 1.2em;
+   padding: 1em 1.2em 1em 1.2em;
 }
     
 @media only screen and (max-width:600px){
