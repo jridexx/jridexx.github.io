@@ -153,7 +153,8 @@ ul {
 
 .rm-bq {
    background-color: var(--bquote-color);
-   padding: 1em 1.3em 1em 1.5em;
+   padding: 1em 1.3em 1em 1.6em;
+   margin: 1em 0 1em 0;
    font-style: italic;
 }
     
