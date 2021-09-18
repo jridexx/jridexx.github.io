@@ -153,6 +153,7 @@ ul {
 
 .rm-bq {
    background-color: var(--bquote-color);
+   padding: 1em;
 }
     
 @media only screen and (max-width:600px){
