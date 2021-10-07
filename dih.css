@@ -120,7 +120,8 @@ img {
 }
 
 .references {
-    margin-top: 40px;   
+    margin-top: 40px;
+    display: none;
 }
 
 ul>li>a {
