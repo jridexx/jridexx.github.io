@@ -67,6 +67,7 @@ body {
     font-family: "iA Writer Quattro S";
     font-style: normal;
     font-weight: bold;
+    white-space: normal;
 }
 
 h2 {
