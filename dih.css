@@ -158,6 +158,10 @@ ul {
    margin: 2em 0 2em 0;
    font-style: italic;
 }
+
+.roamjs-image-container {
+   margin: 30px auto;	
+}
     
 @media only screen and (max-width:600px){
 	body{
