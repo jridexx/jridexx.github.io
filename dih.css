@@ -97,6 +97,10 @@ h3>.rm-alias {
     text-decoration: none;
 }
 
+h2>.rm-alias {
+    text-decoration: none;
+}
+
 p, li {
     font-family: var(--body-font);
     font-style: normal;
