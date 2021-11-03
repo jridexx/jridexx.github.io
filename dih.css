@@ -89,15 +89,11 @@ h3 {
     font-style: normal;
 }
 
-h3>.rm-page-ref {
+h3 .rm-page-ref {
     text-decoration: none;
 }
 
-h3>.rm-alias {
-    text-decoration: none;
-}
-
-h2>.rm-alias {
+h3 .rm-alias {
     text-decoration: none;
 }
 
