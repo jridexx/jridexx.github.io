@@ -142,6 +142,7 @@ footer>a {
     margin-left: 20px;
     text-decoration: none;
     color: var(--salmon-color);
+    font-weight: bold;
 }
 
 ul>li {
