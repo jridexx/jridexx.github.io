@@ -137,6 +137,7 @@ footer {
     text-align: right;
     font-family: var(--body-font);
     align-items: center;
+    display: flex;
 }
 
 footer>a {
