@@ -138,6 +138,7 @@ footer {
     font-family: var(--body-font);
     align-items: center;
     display: flex;
+    justify-content: space-between;
 }
 
 footer>a {
