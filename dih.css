@@ -169,12 +169,16 @@ ul {
     
 @media only screen and (max-width:600px){
 
-body{
+body {
    padding: 20px;
 }
 	
-body ul{
+body ul {
    padding-inline-start: 0px;
-}	
+}
+	
+body>ul li {
+   margin: 0px;
+}
 	
 }
