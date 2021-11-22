@@ -147,7 +147,7 @@ footer>a {
     font-weight: bold;
 }
 
-ul>li {
+.roam-block.left {
     list-style: none;
     margin: 20px;
 }
