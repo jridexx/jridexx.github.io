@@ -124,6 +124,11 @@ img {
     display: none;
 }
 
+.references li {
+    list-style: none;
+    margin: 20px;
+}
+
 ul>li>a {
     text-decoration: none;
     color: var(--salmon-color);
