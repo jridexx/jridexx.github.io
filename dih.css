@@ -177,7 +177,7 @@ body ul {
    padding-inline-start: 0px;
 }
 	
-body>ul li {
+.roam-block.left {
    margin: 0px;
 }
 	
