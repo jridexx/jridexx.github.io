@@ -181,20 +181,24 @@ ul {
 
 @media only screen and (max-width:600px){
 
-body {
-   padding: 20px;
-}
-	
-body ul {
-   padding-inline-start: 0px;
-}
-	
-.roam-block.left {
-   margin: 0px;
-}
+	body {
+	   padding: 20px;
+	}
 
-li a {
-    text-decoration: none;
-}
+	body ul {
+	   padding-inline-start: 0px;
+	}
+
+	.roam-block.left {
+	   margin: 0px;
+	}
+	
+	.main h1 {
+	   font-size: 1.6rem;
+	}
+
+	li a {
+	    text-decoration: none;
+	}
 
 }
