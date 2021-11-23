@@ -10,7 +10,7 @@
     --body-font: "iA Writer Mono S";
 }
 
-/*Salmon color is applied to many specific tags out of need to override styles coming from image preview plugin*/
+/*Salmon color is applied in many specific tags out of need to override styles coming from static site's libraries*/
 
 body>header, .main, .references, footer {
     margin: auto;
@@ -100,7 +100,6 @@ h3 .rm-alias {
 p, li {
     font-family: var(--body-font);
     font-style: normal;
-    text-align: justify;
     line-height: 1.7;
     font-size: 1.1rem;
 }
@@ -177,7 +176,9 @@ ul {
 .main .roamjs-image-container {
    margin: 30px auto;	
 }
-    
+
+/*Responsive Styles*/
+
 @media only screen and (max-width:600px){
 
 body {
