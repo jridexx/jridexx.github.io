@@ -164,11 +164,11 @@ ul>li {
     
 }
 
-.main ul {
+.main>ul {
     padding-inline-start: 20px;   
 }
 
-.main>ul>ul {
+.main ul {
     padding-inline-start: 0px;   
 }
 
