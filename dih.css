@@ -168,7 +168,7 @@ ul {
     padding-inline-start: 20px;   
 }
 
-.main>ul>ul {
+.main>ul+ul {
     padding-inline-start: 0px;   
 }
 
