@@ -165,7 +165,11 @@ ul>li {
 }
 
 ul {
- padding-inline-start: 20px;   
+    padding-inline-start: 20px;   
+}
+
+.main>ul>ul {
+    padding-inline-start: 0px;   
 }
 
 .rm-bq {
