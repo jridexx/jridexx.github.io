@@ -164,10 +164,9 @@ ul>li {
     
 }
 
-.main ul {
-    padding-inline-start: 20px;   
+ul {
+    padding-inline-start: 0px;   
 }
-
 
 ul ul {
     list-style-type: disc;	
