@@ -164,8 +164,8 @@ ul>li {
     
 }
 
-ul {
-    padding-inline-start: 0px;   
+.main ul {
+    padding-inline-start: 20px;   
 }
 
 .rm-bq {
