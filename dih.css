@@ -107,7 +107,6 @@ p, li {
 li a {
     color: var(--salmon-color);
     text-decoration: underline;
-    text-decoration-thickness: 1px;
     text-underline-offset: 0.1em;
 }
 
@@ -209,8 +208,5 @@ ul {
            font-weight: bold;
 	}
 
-	li a {
-	    text-decoration: underline;
-	}
 
 }
