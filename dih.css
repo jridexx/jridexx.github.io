@@ -172,6 +172,14 @@ ul>li {
     padding-inline-start: 0px;   
 }
 
+ul ul {
+    list-style-type: disc;	
+}
+
+ul ul ul {
+    list-style-type: disc;	
+}
+
 .rm-bq {
    background-color: var(--bquote-color);
    padding: 1.2em 1.4em 1.2em 1.6em;
