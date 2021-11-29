@@ -168,6 +168,10 @@ ul>li {
     padding-inline-start: 20px;   
 }
 
+.main>ul>ul {
+    padding-inline-start: 0px;   
+}
+
 .rm-bq {
    background-color: var(--bquote-color);
    padding: 1.2em 1.4em 1.2em 1.6em;
