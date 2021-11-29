@@ -207,6 +207,10 @@ ul {
 	   font-size: 1.13rem;
            font-weight: bold;
 	}
+	
+	li a {
+           text-underline-offset: 0.2em;
+}
 
 
 }
