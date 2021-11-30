@@ -116,7 +116,7 @@ li a:hover {
     text-decoration: none;
 }
 
-img {
+.roam-block img {
     margin: 0 auto;
     width: 100%;
 }
@@ -187,7 +187,8 @@ ul ul ul {
 }
 
 .main .roamjs-image-container {
-   margin: 30px auto 15px auto;	
+   margin: 30px auto 15px auto;
+   max-width: 445px;
 }
 
 /*Responsive Styles*/
