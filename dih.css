@@ -111,7 +111,7 @@ h3 .rm-alias {
     font-size: 1.17em;
 }
 
-p, li {
+.main p, li {
     font-family: var(--body-font);
     font-style: normal;
     line-height: 1.8;
