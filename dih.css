@@ -104,6 +104,10 @@ h3 .rm-alias {
     text-underline-offset: 0.1em;
 }
 
+.references h3 {
+    line-height: 1.8;
+}
+
 p, li {
     font-family: var(--body-font);
     font-style: normal;
