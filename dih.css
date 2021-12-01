@@ -91,12 +91,10 @@ h3 {
     margin-block-start: 1.65em;
 }
 
-h3 .rm-page-ref {
-    text-decoration: none;
-}
-
-h3 .rm-alias {
-    text-decoration: none;
+h3 a {
+    text-decoration: underline;
+    text-decoration-color: var(--bquote-border);
+    text-underline-offset: 0.1em;
 }
 
 p, li {
