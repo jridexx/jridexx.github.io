@@ -14,7 +14,7 @@
 /*Salmon color is applied in many specific tags out of need to override styles coming from static site's libraries*/
 
 body>header, .main, .references, footer {
-    margin: auto;
+    margin: 0 auto;
     max-width: 850px;
   }
 
