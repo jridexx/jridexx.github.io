@@ -84,16 +84,23 @@ h2 .rm-alias {
     text-decoration: none;
 }
 
-
 h3 {
     font-family: "iA Writer Duo S";
     font-style: normal;
     margin-block-start: 1.65em;
 }
 
-h3 a {
+h3 .rm-page-ref {
     text-decoration: underline;
     text-decoration-color: var(--bquote-border);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.1em;
+}
+
+h3 .rm-alias {
+    text-decoration: underline;
+    text-decoration-color: var(--bquote-border);
+    text-decoration-thickness: 1px;
     text-underline-offset: 0.1em;
 }
 
