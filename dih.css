@@ -88,6 +88,7 @@ h2 .rm-alias {
 h3 {
     font-family: "iA Writer Duo S";
     font-style: normal;
+    margin-block-start: 1.5em;
 }
 
 h3 .rm-page-ref {
