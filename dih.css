@@ -207,6 +207,14 @@ ul ul ul {
    max-width: 500px;
 }
 
+.main .roamjs-image-caption {
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 1em;
+    font-style: italic;
+    font-size: 1rem;
+}
+
 .main hr {
   border-top: 1px solid var(--divider-color);
 }
