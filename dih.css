@@ -210,9 +210,9 @@ ul ul ul {
 .main .roamjs-image-caption {
     text-align: center;
     margin-top: 4px;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     font-style: italic;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .main hr {
