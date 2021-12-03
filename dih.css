@@ -92,6 +92,10 @@ h3 {
     margin-block-start: 1.85em;
 }
 
+h1 + ul>li>h3 {
+    margin-block-start: 0.75em;
+}
+
 h3 .rm-page-ref {
     text-decoration: underline;
     text-decoration-color: var(--bquote-border);
