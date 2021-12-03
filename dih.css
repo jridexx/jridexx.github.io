@@ -219,6 +219,10 @@ ul ul ul {
   border-top: 1px solid var(--divider-color);
 }
 
+.starbar {
+    content: "\2727\2003\2003\2727\2003\2003\2727";
+}
+
 /*Responsive Styles*/
 
 @media only screen and (max-width:600px){
