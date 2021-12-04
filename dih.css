@@ -77,6 +77,7 @@ h2 {
     font-family: "iA Writer Duo S";
     font-style: normal;
     font-size: 1.2em;
+    margin-block-start: 0.7em;
 }
 
 h2 .rm-page-ref {
