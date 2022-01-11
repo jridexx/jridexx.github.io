@@ -177,6 +177,11 @@ footer>a {
     margin: 0px;
 }
 
+.roam-block {
+    list-style: none;
+    margin: 0px;
+}
+
 ul>li {
     margin: 20px;
     text-align: left;
