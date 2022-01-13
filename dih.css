@@ -237,7 +237,7 @@ ul ul ul {
   border-top: 1px solid var(--divider-color);
 }
 
-/*Responsive Styles*/
+/*Responsive Styles for Phones*/
 
 @media only screen and (max-width:600px){
 
@@ -249,7 +249,45 @@ ul ul ul {
 	   padding-inline-start: 0px;
 	}
 
-	.roam-block.left {
+	.roam-block {
+	   margin: 0px;
+	}
+	
+	.main h1 {
+	   font-size: 1.6rem;
+	   margin-bottom: 0.25em;
+	}
+	
+	.main h2 {
+	   font-size: 1.2rem;
+	   margin-block-start: 0.25em;
+	}
+	
+	.main h3 {
+	   font-size: 1.13rem;
+           font-weight: bold;
+	}
+	
+	li a {
+           text-underline-offset: 0.2em;
+}
+
+
+}
+
+/*Responsive Styles for Phones*/
+
+@media only screen and (max-width:770px){
+
+	body {
+	   padding: 20px;
+	}
+
+	body ul {
+	   padding-inline-start: 0px;
+	}
+
+	.roam-block {
 	   margin: 0px;
 	}
 	
