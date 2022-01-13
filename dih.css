@@ -19,7 +19,9 @@ body>header, .main, .references, footer {
   }
 
 .center {
-	text-align: center;
+	margin: auto;
+        width: 50%;
+        text-align: center;
 }
 
 body>header {
