@@ -18,6 +18,10 @@ body>header, .main, .references, footer {
     max-width: 850px;
   }
 
+.center {
+	text-align: center;
+}
+
 body>header {
     border-bottom: 1px solid var(--divider-color);
     display: flex;
