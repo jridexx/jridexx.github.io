@@ -171,10 +171,12 @@ body>footer {
 }
 
 footer>a {
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-decoration: none;
     color: var(--salmon-color);
     font-weight: bold;
+    font-size: 1rem;
 }
 
 /* Content Margins originally 20px */
