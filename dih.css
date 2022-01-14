@@ -18,12 +18,6 @@ body>header, .main, .references, footer {
     max-width: 850px;
   }
 
-.center {
-	margin: auto;
-        width: 50%;
-        text-align: center;
-}
-
 body>header {
     border-bottom: 1px solid var(--divider-color);
     display: flex;
@@ -170,8 +164,11 @@ li a:hover {
 }
 
 ul>li>a {
-    text-decoration: none;
     color: var(--salmon-color);
+    text-decoration: underline;
+    text-decoration-color: var(--bquote-border);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.1em;
 }
 
 body>footer {
