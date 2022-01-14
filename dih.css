@@ -248,6 +248,40 @@ ul ul ul {
 @media only screen and (max-width:600px){
 
 	body {
+	   padding: 1em;
+	}
+
+	body ul {
+	   padding-inline-start: 0px;
+	}
+	
+	.main h1 {
+	   font-size: 1.6rem;
+	   margin-bottom: 0.25em;
+	}
+	
+	.main h2 {
+	   font-size: 1.2rem;
+	   margin-block-start: 0.25em;
+	}
+	
+	.main h3 {
+	   font-size: 1.13rem;
+           font-weight: bold;
+	}
+	
+	li a {
+           text-underline-offset: 0.2em;
+}
+
+
+}
+
+/*Responsive Styles for Tablets*/
+
+@media only screen and (max-width:770px){
+
+	body {
 	   padding: 2em;
 	}
 
