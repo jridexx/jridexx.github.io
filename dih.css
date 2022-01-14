@@ -125,6 +125,8 @@ h3 .rm-alias {
 li a {
     color: var(--salmon-color);
     text-decoration: underline;
+    text-decoration-color: var(--bquote-border);
+    text-decoration-thickness: 1px;
     text-underline-offset: 0.1em;
 }
 
