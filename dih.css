@@ -152,6 +152,7 @@ li a:hover {
 
 .references header {
     width: 90%;
+    margin: auto;
 }
 
 .references li {
@@ -300,6 +301,10 @@ ul ul ul {
 
 	body ul {
 	   padding-inline-start: 0px;
+	}
+	
+	.references {
+	   width: 100%;	
 	}
 	
 	.main h1 {
