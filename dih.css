@@ -262,6 +262,12 @@ ul ul ul {
   text-align: center;
 }
 
+.mailinglist {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
 /*Responsive Styles for Phones*/
 
 @media only screen and (max-width:600px){
