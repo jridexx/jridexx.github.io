@@ -270,6 +270,13 @@ ul ul ul {
   margin-block-start: 2.50em
 }
 
+.ml-form-embed {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+	
+
 /*Responsive Styles for Phones*/
 
 @media only screen and (max-width:600px){
