@@ -156,6 +156,12 @@ li a:hover {
     margin: auto;
     display: none;
     width: 90%;
+}
+
+.references .roam-block {
+    margin: auto;
+    width: 100%;
+    list-style: none;
     text-align: center;
 }
 
