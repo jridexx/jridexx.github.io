@@ -121,11 +121,6 @@ h3 .rm-alias {
     text-underline-offset: 0.1em;
 }
 
-.references h3 {
-    line-height: 1.8;
-    font-size: 1.17em;
-}
-
 .main p, li {
     font-family: var(--body-font);
     font-style: normal;
@@ -155,12 +150,17 @@ li a:hover {
 .references {
     margin: auto;
     display: none;
-    width: 90%;
+    width: 100%;
 }
 
 .references header {
-    width: 90%;
+    width: 100%;
     margin: auto;
+}
+
+.references h3 {
+    line-height: 1.8;
+    font-size: 1.17em;
     text-align: center;
 }
 
@@ -168,7 +168,7 @@ li a:hover {
     list-style: none;
     margin: 1em auto;
     text-align: center;
-    width: 90%
+    width: 100%
 }
 
 .references a {
