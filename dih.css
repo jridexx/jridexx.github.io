@@ -158,21 +158,16 @@ li a:hover {
     width: 90%;
 }
 
-.references .roam-block {
-    margin: auto;
-    width: 100%;
-    list-style: none;
-    text-align: center;
-}
-
 .references header {
     width: 90%;
     margin: auto;
+    text-align: center;
 }
 
 .references li {
     list-style: none;
     margin: 1em auto;
+    text-align: center;
     width: 90%
 }
 
