@@ -156,6 +156,7 @@ li a:hover {
     margin: auto;
     display: none;
     width: 90%;
+    text-align: center;
 }
 
 .references header {
