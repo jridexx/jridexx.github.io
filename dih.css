@@ -66,6 +66,8 @@ body {
     margin: auto auto 2em auto;
     width: 100%;
     text-align: center;
+    font-family: var(--body-font);
+    font-style: normal;
 }
 
 #oneliner {
