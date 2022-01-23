@@ -62,11 +62,8 @@ body {
     font-size: 1.17em;
 }
 
-#content-header {
+#oneliner {
     margin-block-start: 1em;
-    margin: auto;
-    width: 100%;
-    text-align: center;
 }
 
 .main h1 {
@@ -217,6 +214,12 @@ footer>a {
     margin: auto;
     width: 100%;
     list-style: none;
+}
+
+.center-block {
+    margin: auto;
+    width: 100%;
+    text-align: center;
 }
 
 ul>li {
