@@ -63,7 +63,7 @@ body {
 }
 
 .content-header {
-    margin: auto auto 2em auto;
+    margin: auto auto 1.75em auto;
     width: 100%;
     text-align: center;
     font-family: var(--body-font);
@@ -151,6 +151,7 @@ li a:hover {
     margin: auto;
     display: none;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .references header {
