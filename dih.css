@@ -63,7 +63,7 @@ body {
 }
 
 .content-header {
-    margin: auto auto auto 2em;
+    margin: auto auto 2em auto;
     width: 100%;
     text-align: center;
 }
