@@ -59,7 +59,7 @@ header>div>a {
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-size: 1.17em;
+    font-size: 1.17em !important;
 }
 
 .content-header {
