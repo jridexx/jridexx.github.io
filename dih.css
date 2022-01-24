@@ -340,6 +340,10 @@ ul ul ul {
     	   margin-block-end: 1em;
     	   font-size: 1.13rem;
         }
+	
+	#pubdate {
+    	   font-size: 1rem;
+        }
 
 
 }
@@ -380,7 +384,7 @@ ul ul ul {
         }
 	
 	#pubdate {
-    	   font-size: 1.13rem;
+    	   font-size: 1rem;
         }
 
 
