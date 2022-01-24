@@ -73,6 +73,11 @@ body {
 
 #oneliner {
     margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+#apart {
+    margin-block-start: 1em;
 }
 
 .main h1 {
