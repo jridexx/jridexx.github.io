@@ -68,7 +68,7 @@ body {
     text-align: center;
     font-family: var(--body-font);
     font-style: normal;
-    font-size: 1.17em;
+    font-size: 1em;
     color: var(--text-color);
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 #pubdate {
-    font-size: 1em;
+    font-size: 0.9em;
 }
 
 #apart {
