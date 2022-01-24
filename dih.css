@@ -68,12 +68,17 @@ body {
     text-align: center;
     font-family: var(--body-font);
     font-style: normal;
+    font-size: 1.17em;
     color: var(--text-color);
 }
 
 #oneliner {
     margin-block-start: 1em;
     margin-block-end: 1em;
+}
+
+#pubdate {
+    font-size: 1em;
 }
 
 #apart {
