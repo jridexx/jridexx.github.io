@@ -5,6 +5,7 @@
     --text-color: #3A3A3A;
     --divider-color: rgba(0,0,0,0.1);
     --salmon-color: #EF4444;
+    --mid-gray: #7C7C7C;
     --test-color: #FC21BE;
     --bquote-color: #FBF3F3;
     --bquote-border: #E9CBCB;
@@ -86,6 +87,15 @@ body {
     margin-block-start: 1em;
     margin-block-end: 1em;
     font-size: 0.9em;
+    color: (--mid-gray);
+}
+
+#pagetype {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-style: italic;
+    font-size: 0.9em;
+    color: (--mid-gray);
 }
 
 #apart {
