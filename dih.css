@@ -257,7 +257,8 @@ footer>a {
 }
 
 ul>li {
-    margin: 20px;
+    margin: auto;
+    width: 90%;
     text-align: left;
     
 }
