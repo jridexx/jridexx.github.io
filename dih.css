@@ -79,6 +79,14 @@ body {
     font-style: italic;
 }
 
+#intro {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-style: italic;
+    font-size: 0.9em;
+    color: (--mid-gray);
+}
+
 #pubdate {
     font-size: 0.9em;
 }
