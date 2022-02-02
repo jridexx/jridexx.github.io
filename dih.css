@@ -84,7 +84,8 @@ body {
     margin-block-end: 1em;
     font-style: italic;
     font-size: 0.9em;
-    color: (--mid-gray);
+    line-height: 1.8;
+    color: var(--mid-gray);
 }
 
 #pubdate {
