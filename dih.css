@@ -334,6 +334,10 @@ ul ul ul {
   margin-block-start: 2.50em
 }
 
+.mailinglist h3 {
+  margin-block-start: 1em
+}
+
 .ml-form-embed {
   margin: auto;
   width: 100%;
