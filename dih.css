@@ -99,13 +99,13 @@ body {
 }
 
 #pubdate {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
 #wordcount {
     margin-block-start: 1em;
     margin-block-end: 1em;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: (--mid-gray);
 }
 
