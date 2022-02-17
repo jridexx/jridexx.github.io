@@ -123,8 +123,8 @@ body {
 }
 
 #key {
-   font-style: italic;
-   font-weight: bold;
+   font-style: italic !important;
+   font-weight: bold !important;
 }
 
 .main h1 {
