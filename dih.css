@@ -132,7 +132,7 @@ body {
    font-weight: bold !important;
 }
 
-.uh p{
+.uh {
    color: var(--mid-gray);
    margin-block-end: 1.5em;
 }
