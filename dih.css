@@ -125,8 +125,8 @@ body {
 .key p {
    font-style: italic !important;
    font-weight: bold !important;
-   margin-block-start: 1em;
-   margin-block-end: 1em;
+   margin-block-start: 2em;
+   margin-block-end: 2em;
 }
 
 .main h1 {
@@ -370,7 +370,6 @@ ul ul ul {
 	
 	.main h2 {
 	   font-size: 1.2rem;
-	   margin-block-start: 0.25em;
 	}
 	
 	.main h3 {
@@ -422,7 +421,6 @@ ul ul ul {
 	
 	.main h2 {
 	   font-size: 1.2rem;
-	   margin-block-start: 0.25em;
 	}
 	
 	.main h3 {
