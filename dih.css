@@ -305,7 +305,7 @@ ul ul ul {
    background-color: var(--bquote-color);
    border-left: 5px solid var(--bquote-border);
    padding: 1.2em 1.4em 1.2em 1.6em;
-   margin: 2em 0.5em 2em 0.5em;
+   margin: 2em 0.5em 2em 0.75em;
    font-style: italic;
 }
 
