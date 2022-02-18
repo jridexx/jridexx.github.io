@@ -134,6 +134,7 @@ body {
 
 .uh {
    color: var(--mid-gray);
+   line-height: 2.1;
    margin-block-end: 2.2em !important;
 }
 
