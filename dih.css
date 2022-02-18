@@ -125,6 +125,8 @@ body {
 .key p {
    font-style: italic !important;
    font-weight: bold !important;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
 }
 
 .main h1 {
