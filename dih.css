@@ -132,6 +132,11 @@ body {
    font-weight: bold !important;
 }
 
+.uh p{
+   color: var(--mid-gray);
+   margin-block-end: 1.5em;
+}
+
 .main h1 {
     font-size: 2.15rem;
     line-height: 2.8rem;
