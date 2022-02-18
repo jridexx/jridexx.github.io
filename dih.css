@@ -134,7 +134,7 @@ body {
 
 .uh {
    color: var(--mid-gray);
-   margin-block-end: 1.5em;
+   margin-block-end: 1.5em !important;
 }
 
 .main h1 {
