@@ -157,11 +157,17 @@ h2 {
 }
 
 h2 .rm-page-ref {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: var(--bquote-border);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.1em;
 }
 
 h2 .rm-alias {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: var(--bquote-border);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.1em;
 }
 
 h3 {
