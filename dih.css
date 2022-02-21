@@ -120,6 +120,7 @@ body {
 #apart {
     margin-block-start: 1em;
     color: var(--divider-color);
+    text-align: center;
 }
 
 .key {
