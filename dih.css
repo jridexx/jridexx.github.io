@@ -61,6 +61,7 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
     font-size: 1.17em !important;
+    font-family: var(--body-font) !important;
 }
 
 .content-header {
