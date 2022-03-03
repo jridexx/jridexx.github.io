@@ -122,6 +122,7 @@ body {
     margin-block-start: 1em;
     color: var(--divider-color);
     text-align: center;
+    font-size: 1em !important;
 }
 
 .key {
