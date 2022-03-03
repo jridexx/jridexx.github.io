@@ -279,7 +279,7 @@ footer>a {
     font-size: 1.2rem;
 }
 
-/* Content Margins originally 20px */
+/* CONTENT MARGINS */
 
 .roam-block.left {
     list-style: none;
@@ -342,6 +342,8 @@ ul ul ul {
 .main hr {
   border-top: 1px solid var(--divider-color);
 }
+
+/* CONTENT CHASER */
 
 .chaser .roam-block {
   margin: auto;
@@ -421,6 +423,13 @@ ul ul ul {
            margin: auto;
            width: 85%;
         }
+	
+	/* CONTENT CHASER CONTAINER ADJUSTMENT FOR MOBILE */
+	.chaser .roam-block {
+	  margin: auto;
+	  width: 90%;
+	  text-align: center;
+	}
 
 
 }
