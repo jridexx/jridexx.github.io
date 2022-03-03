@@ -370,7 +370,7 @@ ul ul ul {
 }
 	
 
-/*Responsive Styles for Phones*/
+/*RESPONSIVE STYLES: SMARTPHONE*/
 
 @media only screen and (max-width:600px){
 
@@ -424,17 +424,17 @@ ul ul ul {
            width: 85%;
         }
 	
-	/* CONTENT CHASER CONTAINER ADJUSTMENT FOR MOBILE */
+	/* CONTENT-CHASER CONTAINER ADJUSTMENT FOR MOBILE */
 	.chaser .roam-block {
 	  margin: auto;
-	  width: 90%;
+	  width: 85%;
 	  text-align: center;
 	}
 
 
 }
 
-/*Responsive Styles for Tablets*/
+/*RESPONSIVE STYLES: TABLETS*/
 
 @media only screen and (max-width:770px){
 
@@ -485,6 +485,13 @@ ul ul ul {
            margin: auto;
            width: 85%;
         }
+	
+	/* CONTENT-CHASER CONTAINER ADJUSTMENT FOR MOBILE */
+	.chaser .roam-block {
+	  margin: auto;
+	  width: 85%;
+	  text-align: center;
+	}
 
 
 }
