@@ -344,13 +344,13 @@ ul ul ul {
   border-top: 1px solid var(--divider-color);
 }
 
-.mailinglist .roam-block {
+.chaser .roam-block {
   margin: auto;
   width: 100%;
   text-align: center;
 }
 
-.mailinglist {
+.chaser {
   margin: auto;
   width: 100%;
   text-align: center;
@@ -358,7 +358,7 @@ ul ul ul {
   margin-block-start: 2.50em
 }
 
-.mailinglist h3 {
+.chaser h3 {
   margin-block-start: 1em
 }
 
@@ -479,4 +479,59 @@ ul ul ul {
         }
 
 
+}
+
+/* Styles for Tipjar Buttons */
+
+#tipjar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  display: inline-flex;
+  border: none !important;
+  border-radius: 4px!important;
+  height: 40px;
+  width: 150px;
+  margin: 20px 20px 20px 20px;
+  color: #fff!important;
+  background-color: #eb7676 !important;
+  text-decoration: none;
+  font-family: Oxygen,sans-serif!important;
+  font-size: 14px!important;
+  font-weight: 700!important;
+  line-height: 21px!important;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #BFC0C0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-2 a {
+  position: relative;
+  transition: all .35s ease-Out;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+#button-2:hover {
+  background-color: #ee9f9f !important;
 }
