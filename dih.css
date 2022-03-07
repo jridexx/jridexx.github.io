@@ -290,6 +290,7 @@ footer a {
 
 .footerdiv {
     padding: 0 0.6em 0 0.6em;
+    color: var(--divider-color);
 }
 
 /* CONTENT MARGINS */
