@@ -454,6 +454,7 @@ ul ul ul {
 	.footerlink {   
 	   margin: auto;
            width: 100%;
+	   padding: 0 0 20px 0;
         }
 
         .footerdiv {
