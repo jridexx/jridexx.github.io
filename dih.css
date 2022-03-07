@@ -445,6 +445,12 @@ ul ul ul {
 	  text-align: center;
 	}
 	
+	/* ADJUSTMENT SO FOOTER FLOWS AS COLUMN ON MOBILE */
+	
+	body>footer {
+          flex-direction: column;
+        }
+	
 	.footerlink {   
 	   margin: auto;
            width: 100%;
