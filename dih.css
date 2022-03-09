@@ -139,7 +139,7 @@ body {
 
 .key:after {
     content: '✦';
-    color: var(--divider-color);
+    color: var(--salmon-color);
     text-align: center;
 }
 
