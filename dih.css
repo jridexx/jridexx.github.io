@@ -5,6 +5,7 @@
     --text-color: #3A3A3A;
     --divider-color: rgba(0,0,0,0.1);
     --salmon-color: #EF4444;
+    --mid-salmon: #ef444491;
     --mid-gray: #505050;
     --test-color: #FC21BE;
     --bquote-color: #FBF3F3;
@@ -130,6 +131,7 @@ body {
 .key {
     margin-block-start: 2em !important;
     margin-block-end: 2em !important;
+    width: 90% !important;
 }
 
 .key p {
@@ -139,7 +141,7 @@ body {
 
 .key:after {
     content: '✦';
-    color: var(--salmon-color);
+    color: var(--mid-salmon);
     text-align: center;
 }
 
