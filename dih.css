@@ -145,6 +145,17 @@ body {
     text-align: center;
 }
 
+.finalkey {
+    margin-block-start: 2em !important;
+    margin-block-end: 2em !important;
+    width: 90% !important;
+}
+
+.finalkey p {
+   font-style: italic !important;
+   font-weight: bold !important;
+}
+
 /* STYLES FOR DOSSIER "UNDERHEADINGS" */
 
 .uh {
