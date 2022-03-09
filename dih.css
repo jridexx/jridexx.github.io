@@ -125,6 +125,8 @@ body {
     font-size: 1em !important;
 }
 
+/* STYLES FOR THE "KEY PHRASES"*/
+
 .key {
     margin-block-start: 2em !important;
     margin-block-end: 2em !important;
@@ -134,6 +136,20 @@ body {
    font-style: italic !important;
    font-weight: bold !important;
 }
+
+.key:before {
+    content: '✦';
+    color: var(--divider-color);
+    text-align: center;
+}
+
+.key:after {
+    content: '✦';
+    color: var(--divider-color);
+    text-align: center;
+}
+
+/* STYLES FOR DOSSIER "UNDERHEADINGS" */
 
 .uh {
    color: var(--mid-gray);
