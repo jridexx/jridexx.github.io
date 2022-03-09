@@ -137,12 +137,6 @@ body {
    font-weight: bold !important;
 }
 
-.key:before {
-    content: '✦';
-    color: var(--divider-color);
-    text-align: center;
-}
-
 .key:after {
     content: '✦';
     color: var(--divider-color);
