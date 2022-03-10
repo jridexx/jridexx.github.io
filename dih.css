@@ -156,6 +156,12 @@ body {
    font-weight: bold !important;
 }
 
+.diamond:before {
+    content: '✦';
+    color: var(--mid-salmon);
+    text-align: center;
+}
+
 /* STYLES FOR DOSSIER "UNDERHEADINGS" */
 
 .uh {
