@@ -160,6 +160,8 @@ body {
     content: '✦';
     color: var(--mid-salmon);
     text-align: center;
+    margin-block-start: 2em !important;
+    margin-block-end: 2em !important;
 }
 
 /* STYLES FOR DOSSIER "UNDERHEADINGS" */
