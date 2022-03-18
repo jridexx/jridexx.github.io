@@ -252,10 +252,11 @@ li a:hover {
     width: 100%;
 }
 
+/* REFERENCES STYLES */
+
 .references {
     margin: auto;
-    display: none;
-    width: 100%;
+    width: 75%;
     margin-bottom: 2em;
 }
 
@@ -264,16 +265,9 @@ li a:hover {
     margin: auto;
 }
 
-.references h3 {
-    line-height: 1.8;
-    font-size: 1.17em;
-    text-align: center;
-}
-
 .references li {
     list-style: none;
     margin: 1em auto;
-    text-align: center;
     width: 100%
 }
 
