@@ -12,5 +12,9 @@
 //A function to ignore certain references
 
 window.addEventListener("load", function(){
-  document.querySelectorAll(".references li").forEach(x => x.children[0].classList.add("roam-block"));
+  document.querySelectorAll(".references li").forEach(function(e) {
+      listItem = e.parentNode;
+      list = listItem.parentNode;
+      list.classList.add("roam-block");
+    });
 });
