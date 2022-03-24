@@ -16,3 +16,9 @@ window.addEventListener("load", function(){
       e.classList.add("roam-block");
     });
 });
+
+window.addEventListener("load", function(){
+  document.querySelectorAll(".references a").forEach(function(e) {
+      e.setAttribute('data-reference', title);
+    });
+});
