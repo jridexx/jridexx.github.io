@@ -19,6 +19,6 @@ window.addEventListener("load", function(){
 
 window.addEventListener("load", function(){
   document.querySelectorAll(".references a").forEach(function(e) {
-      e.setAttribute("data-reference", title);
+      e.setAttribute("data-reference", a.innerText);
     });
 });
