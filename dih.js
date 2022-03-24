@@ -22,3 +22,16 @@ window.addEventListener("load", function(){
       e.setAttribute("data-reference", e.innerText);
     });
 });
+
+window.addEventListener("load", function(){
+  ignoredReferences = [
+   "Public / Topic Index"
+  ];
+
+  ignoredReferences.forEach(function(r){
+    document.querySelectorAll("[data-reference='"+r+"']",).forEach(function(e) {
+      listItem = e.parentNode;
+      list = listItem.parentNode;
+      list.removeChild(listItem);
+    });    
+  });
