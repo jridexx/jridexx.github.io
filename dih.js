@@ -13,8 +13,6 @@
 
 window.addEventListener("load", function(){
   document.querySelectorAll(".references li").forEach(function(e) {
-      listItem = e.parentNode;
-      list = listItem.parentNode;
-      list.classList.add("roam-block");
+      e.classList.add("roam-block");
     });
 });
