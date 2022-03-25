@@ -9,13 +9,15 @@
   
 });*/
 
-//A function to ignore certain references
+//A function to add a class by selector
 
 window.addEventListener("load", function(){
   document.querySelectorAll(".references li").forEach(function(e) {
       e.classList.add("roam-block");
     });
 });
+
+//A function to ignore certain references
 
 window.addEventListener("load", function(){
   document.querySelectorAll(".references a").forEach(function(e) {
