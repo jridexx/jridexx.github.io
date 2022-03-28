@@ -27,7 +27,13 @@ window.addEventListener("load", function(){
 
 window.addEventListener("load", function(){
   ignoredReferences = [
-   "Public / Topic Index"
+   "Dossier / Experience, The Moment You're Having Right Now",
+   "Dossier / Understanding Media, Nature of Form",
+   "Dossier / Modernity, Today and Tomorrow",
+   "Dossier / America, The Great Dynamic",
+   "Dossier / Human Cooperation, Cooperative Dynamics",
+   "Dossier / Reality, The Story That Matters",
+   "Dossier / New York, Metropolis by the Hudson"
   ];
 
   ignoredReferences.forEach(function(r){
