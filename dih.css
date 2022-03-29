@@ -495,8 +495,12 @@ ul ul ul {
 	
 	.roam-block {
            margin: auto;
-           width: 85%;
+           width: 90%;
         }
+	
+	.references {
+	   width: 90%;	
+	}
 	
 	/* CONTENT-CHASER CONTAINER ADJUSTMENT FOR MOBILE */
 	.chaser .roam-block {
@@ -537,7 +541,7 @@ ul ul ul {
 	}
 	
 	.references {
-	   width: 100%;	
+	   width: 85%;	
 	}
 	
 	.main h1 {
