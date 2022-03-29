@@ -65,6 +65,8 @@ body {
     font-family: var(--body-font) !important;
 }
 
+/* CONTENT HEADER AND FOOTER */
+
 .content-header {
     margin: auto auto 2.5em auto;
     width: 90%;
@@ -579,6 +581,10 @@ ul ul ul {
 	  margin: auto;
 	  width: 85%;
 	  text-align: center;
+	}
+	
+	.content-footer {
+          width: 85%;
 	}
 
 
