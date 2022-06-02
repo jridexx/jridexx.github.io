@@ -226,6 +226,22 @@ body {
 }
 }
 
+/* STYLES FOR BLOCK QUOTES */
+
+.main .rm-bq {
+   background-color: var(--bquote-color);
+   border-left: 5px solid var(--bquote-border);
+   padding: 1.2em 1.4em 1.2em 1.6em;
+   margin: 2em 0.5em 2em 0.75em;
+   font-style: italic;
+}
+
+/* STYLES FOR BLOCK REFERENCES */
+
+.main .rm-block-ref {
+   text-decoration: none !important;	
+}
+
 /* STYLES FOR DOSSIER "UNDERHEADINGS" */
 
 .uh {
@@ -418,14 +434,6 @@ ul ul {
 ul ul ul {
     list-style-type: disc;
     padding-inline-start: 20px;
-}
-
-.main .rm-bq {
-   background-color: var(--bquote-color);
-   border-left: 5px solid var(--bquote-border);
-   padding: 1.2em 1.4em 1.2em 1.6em;
-   margin: 2em 0.5em 2em 0.75em;
-   font-style: italic;
 }
 
 .main .roamjs-image-container {
