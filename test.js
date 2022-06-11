@@ -1,6 +1,6 @@
 // Remove the transition class
   const block = document.querySelector('.roam-block');
-  block.classList.remove('block-transition');
+//  block.classList.remove('block-transition');
   
     // Create the observer
     const observer = new IntersectionObserver(entries => {
