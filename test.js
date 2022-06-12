@@ -1,5 +1,4 @@
-// Remove the transition class
-  const blockList = document.querySelectorAll('.roam-block');
+ 
 //  block.classList.remove('block-transition');
   
     // Create the observer
@@ -10,15 +9,18 @@
               if (entry.isIntersecting) {
                 
                 // It's visible. Add the animation class here!
-                block.classList.add('block-transition');
+                entry.target.classList.add('block-transition');
                 
               }
 
-              block.classList.remove('block-transition');
+              entry.target.classList.remove('block-transition');
+        
       });
       
     });
+
+  const blockList = document.querySelectorAll('.roam-block');
     
-   blockList.forEach((el) => {
-  observer.observe(el);
-})
+  blockList.forEach((el) => {
+      observer.observe(el);
+  });
