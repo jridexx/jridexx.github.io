@@ -1,5 +1,5 @@
 // Remove the transition class
-  const block = document.querySelectorAll('.roam-block');
+  const blockList = document.querySelectorAll('.roam-block');
 //  block.classList.remove('block-transition');
   
     // Create the observer
@@ -19,5 +19,6 @@
       
     });
     
-    // Tell the observer which elements to track
-    observer.observe(document.querySelectorAll('.roam-block'));
+   blockList.forEach((el) => {
+  observer.observe(el);
+})
