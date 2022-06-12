@@ -661,3 +661,10 @@ ul ul ul {
 #button-2:hover {
   background-color: #ee9f9f !important;
 }
+
+/* Test Styles */
+
+.block-transition {
+  opacity: 1;
+  transform: none;
+}
