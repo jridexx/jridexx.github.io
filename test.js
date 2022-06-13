@@ -1,26 +1,18 @@
- 
-//  block.classList.remove('block-transition');
-  
-    // Create the observer
-    const observer = new IntersectionObserver(entries => {
+const io = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    // Add 'active' class if observation target is inside viewport
+    if (entry.intersectionRatio > 0) {
+      entry.target.classList.add('block-transition');
+    }
+    // Remove 'active' class otherwise
+    else {
+      entry.target.classList.remove('block-transition');
+    }
+  })
+})
 
-      entries.forEach(entry => {
-        
-              if (entry.isIntersecting) {
-                
-                // It's visible. Add the animation class here!
-                entry.target.classList.add('block-transition');
-                
-              }
-
-              entry.target.classList.remove('block-transition');
-        
-      });
-      
-    });
-
-  const blockList = document.querySelectorAll('.roam-block');
-    
-  blockList.forEach((el) => {
-      observer.observe(el);
-  });
+// Declares what to observe, and observes its properties.
+const boxElList = document.querySelectorAll('.roam-block');
+boxElList.forEach((el) => {
+  io.observe(el);
+}) 
