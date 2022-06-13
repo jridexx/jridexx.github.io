@@ -408,6 +408,7 @@ footer a {
     margin: auto;
     width: 85%;
     list-style: none;
+    transition: opacity 1s ease-in-out 0.25s;
 }
 
 .roam-block .roam-block {
