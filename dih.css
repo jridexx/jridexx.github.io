@@ -667,5 +667,5 @@ ul ul ul {
 
 .fade-transition {
   opacity: 1 !important;
-  transform: none;
+  transform: none !important;
 }
