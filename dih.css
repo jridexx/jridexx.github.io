@@ -665,6 +665,7 @@ ul ul ul {
 
 /* Test Styles */
 
-.block-transition {
+.fade-transition {
   opacity: 1 !important;
+  transform: none;
 }
