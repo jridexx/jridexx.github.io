@@ -4,11 +4,11 @@
       
       entries.forEach(entry => {
         
-        // Add 'active' class (.block-transition) if observation target is inside viewport
+        // Add 'active' class (.fade-transition) if observation target is inside viewport
         
         if (entry.intersectionRatio > 0) {
           
-          entry.target.classList.add('block-transition');
+          entry.target.classList.add('fade-transition');
           
         }
       });
