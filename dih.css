@@ -39,10 +39,10 @@ header h1 {
 .titlediv {
     font-size: 1.3rem;
     line-height: 2.8rem;
-    margin-top: 1.5rem;
     font-family: "iA Writer Quattro S";
     font-style: normal;
     font-weight: bold;
+    padding: 60px 0 40px 0;
 }
 
 /*Pending matter, may not be needed anymore, still connected to other styling aberrations*/
