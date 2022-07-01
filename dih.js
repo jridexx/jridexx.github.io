@@ -24,7 +24,7 @@ window.addEventListener("load", function(){
       e.setAttribute("data-reference", e.innerText);
     });
   
-  document.querySelector('[data-reference^="Nexus"]').forEach(function(e) {
+  document.querySelectorAll('[data-reference^="Nexus"]').forEach(function(e) {
       listItem = e.parentNode;
       list = listItem.parentNode;
       list.removeChild(listItem);
