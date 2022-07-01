@@ -41,10 +41,13 @@ window.addEventListener("load", function(){
   ];
 
   ignoredReferences.forEach(function(r){
-    document.querySelectorAll("[data-reference='"+r+"']",).forEach(function(e) {
+    
+    document.querySelector('[data-reference^="Nexus"]').forEach(function(e) {
       listItem = e.parentNode;
       list = listItem.parentNode;
       list.removeChild(listItem);
     });    
   });
 });
+
+//document.querySelectorAll("[data-reference='"+r+"']",)
