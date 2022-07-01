@@ -23,6 +23,12 @@ window.addEventListener("load", function(){
   document.querySelectorAll(".references a").forEach(function(e) {
       e.setAttribute("data-reference", e.innerText);
     });
+  
+  document.querySelector('[data-reference^="Nexus"]').forEach(function(e) {
+      listItem = e.parentNode;
+      list = listItem.parentNode;
+      list.removeChild(listItem);
+    });    
 });
 
 window.addEventListener("load", function(){
