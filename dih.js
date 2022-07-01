@@ -17,7 +17,7 @@ window.addEventListener("load", function(){
     });
 });
 
-//A function to ignore certain references
+//A function to remove references starting with Nexus in two steps, adding attribute, reading attribute
 
 window.addEventListener("load", function(){
   document.querySelectorAll(".references a").forEach(function(e) {
@@ -30,30 +30,3 @@ window.addEventListener("load", function(){
       list.removeChild(listItem);
     });    
 });
-
-window.addEventListener("load", function(){
-  ignoredReferences = [
-   "Nexus / Experience, What You're Having Right Now",
-   "Nexus / Media, Nature of Form",
-   "Nexus / Modernity, The Present Situation",
-   "Nexus / America, The Great Dynamic",
-   "Nexus / New York, Western Metropolis",
-   "Nexus / Human Cooperation, Growing Together",
-   "Nexus / Capitalism, For-Profit Cooperation",
-   "Nexus / Ethics, Acting In Consequence",
-   "Nexus / Reality, Non-Fiction",
-   "Nexus / The Web, Happening Online",
-   "Nexus / Cultural Forms, Ways and Means of Humankind"
-  ];
-
-  ignoredReferences.forEach(function(r){
-    
-    document.querySelector('[data-reference^="Nexus"]').forEach(function(e) {
-      listItem = e.parentNode;
-      list = listItem.parentNode;
-      list.removeChild(listItem);
-    });    
-  });
-});
-
-//document.querySelectorAll("[data-reference='"+r+"']",)
