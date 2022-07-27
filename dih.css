@@ -1,5 +1,6 @@
 @import url('https://fonts.rcvd.io/iA Writer/stylesheet.css');
 @import url('http://fonts.cdnfonts.com/css/rubik-mono-one');
+import "@fontsource/rubik-mono-one"
 
 :root {
     --bg-color: #FDFCFB;
