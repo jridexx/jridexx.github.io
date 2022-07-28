@@ -1,5 +1,7 @@
 @import url('https://fonts.rcvd.io/iA Writer/stylesheet.css');
 @import url('http://fonts.cdnfonts.com/css/rubik-mono-one');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 
 :root {
     --bg-color: #FDFCFB;
@@ -78,7 +80,7 @@ body {
 /* CONTENT HEADER AND FOOTER */
 
 .content-header {
-    margin: auto auto 2.5em auto;
+    margin: auto auto 1.5em auto;
     width: 90%;
     text-align: center;
     font-family: var(--body-font);
