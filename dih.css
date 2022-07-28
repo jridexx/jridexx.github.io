@@ -25,7 +25,7 @@ body>header, .main, .references, footer {
   }
 
 body>header {
-    border-bottom: 1px solid var(--divider-color);
+    border-bottom: 0px solid var(--divider-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,7 +167,41 @@ body {
   width: 100%;
   text-align: center;
 }
-	
+
+/* FOOTER STYLES */
+
+body>footer {
+    margin-top: 40px;
+    padding: 40px 0 60px 0;
+    border-top: 0px solid var(--divider-color);
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    font-family: var(--body-font);
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: var(--salmon-color);
+    font-weight: bold;
+}
+
+.footerlink {   
+    text-decoration: none;
+    color: var(--salmon-color);
+    text-align: center;
+}
+
+.footerdiv {
+    padding: 0.1em 0.6em 0 0.6em;
+    color: var(--divider-color);
+    font-size: 0.9em;
+}
 
 /* STYLES FOR THE "KEY PHRASES"*/
 
@@ -267,7 +301,7 @@ body {
     font-size: 2.15rem;
     line-height: 2.8rem;
     margin-top: 1.5rem;
-    font-family: "iA Writer Quattro S";
+    font-family: "iA Writer Duo S";
     font-style: normal;
     font-weight: bold;
     white-space: normal;
@@ -373,41 +407,6 @@ ul>li>a {
     text-decoration-color: var(--bquote-border);
     text-decoration-thickness: 1px;
     text-underline-offset: 0.1em;
-}
-
-/* FOOTER STYLES */
-
-body>footer {
-    margin-top: 40px;
-    padding: 40px 0 60px 0;
-    border-top: 1px solid var(--divider-color);
-    display: flex;
-    margin: auto;
-    width: 100%;
-    justify-content: center;
-    font-family: var(--body-font);
-    font-size: 1em;
-    font-weight: bold;
-}
-
-footer a {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: var(--salmon-color);
-    font-weight: bold;
-}
-
-.footerlink {   
-    text-decoration: none;
-    color: var(--salmon-color);
-    text-align: center;
-}
-
-.footerdiv {
-    padding: 0.1em 0.6em 0 0.6em;
-    color: var(--divider-color);
-    font-size: 0.9em;
 }
 
 /* CONTENT MARGINS */
