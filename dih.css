@@ -13,7 +13,7 @@
     --test-color: #FC21BE;
     --bquote-color: #FBF3F3;
     --bquote-border: #E9CBCB;
-    --body-font: "Cormorant";
+    --body-font: "iA Writer Mono S";
 }
 
 /*Salmon color is applied in many specific tags out of need to override styles coming from static site's libraries*/
