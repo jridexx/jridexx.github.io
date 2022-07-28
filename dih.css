@@ -35,7 +35,7 @@ header h1 {
     font-size: 1.3rem;
     line-height: 2.8rem;
     margin-top: 1.5rem;
-    font-family: "iA Writer Duo S";
+    font-family: "iA Writer Quattro S";
     font-style: normal;
     font-weight: bold;
 }
@@ -301,7 +301,7 @@ footer a {
     font-size: 2.15rem;
     line-height: 2.8rem;
     margin-top: 1.5rem;
-    font-family: "iA Writer Duo S";
+    font-family: "iA Writer Quattro S";
     font-style: normal;
     font-weight: bold;
     white-space: normal;
@@ -311,6 +311,7 @@ footer a {
 
 h2 {
     font-family: "iA Writer Duo S";
+    font-weight: bold;
     font-size: 1.2em;
     margin-block-start: 2.1em;
 }
