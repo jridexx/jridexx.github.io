@@ -359,6 +359,7 @@ h3 .rm-alias {
     font-style: normal;
     line-height: 1.8;
     margin-bottom: 20px;
+    hyphens: inherit;
 }
 
 li a {
