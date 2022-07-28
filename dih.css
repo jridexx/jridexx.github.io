@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Cormorant:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
 /* font-family: 'Cormorant', serif; font-family: 'Cormorant SC', serif; font-family: 'Rubik Mono One', sans-serif; "iA Writer Mono S"*/
 
 :root {
@@ -312,7 +313,7 @@ footer a {
 }
 
 h2 {
-    font-family: "iA Writer Duo S";
+    font-family: "Cabin Sketch";
     font-weight: bold;
     font-size: 1.2em;
     margin-block-start: 2.1em;
