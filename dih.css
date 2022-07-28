@@ -196,6 +196,7 @@ footer a {
     color: var(--salmon-color);
     text-align: center;
     font-family: 'Rubik';
+    font-size: 0.9em;
 }
 
 .footerdiv {
