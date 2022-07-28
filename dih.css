@@ -313,10 +313,11 @@ footer a {
 }
 
 h2 {
-    font-family: "Bitter";
-    font-weight: 400;
-    font-size: 1.4em;
+    font-family: "iA Writer Duo S";
+    font-weight: 700;
+    font-size: 1.25em;
     margin-block-start: 2.1em;
+    font-style: italic;
 }
 
 h2 .rm-page-ref {
