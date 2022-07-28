@@ -1,7 +1,7 @@
 @import url('https://fonts.rcvd.io/iA Writer/stylesheet.css');
-@import url('http://fonts.cdnfonts.com/css/rubik-mono-one');
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Cormorant:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+/* font-family: 'Cormorant', serif; font-family: 'Cormorant SC', serif; font-family: 'Rubik Mono One', sans-serif; */
 
 :root {
     --bg-color: #FDFCFB;
@@ -15,6 +15,7 @@
     --bquote-border: #E9CBCB;
     --body-font: "iA Writer Mono S";
 }
+
 
 /*Salmon color is applied in many specific tags out of need to override styles coming from static site's libraries*/
 
@@ -34,7 +35,7 @@ header h1 {
     font-size: 1.3rem;
     line-height: 2.8rem;
     margin-top: 1.5rem;
-    font-family: "iA Writer Quattro S";
+    font-family: "iA Writer Duo S";
     font-style: normal;
     font-weight: bold;
 }
