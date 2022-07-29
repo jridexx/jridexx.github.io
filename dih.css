@@ -219,6 +219,10 @@ footer a {
     display: none;
 }
 
+.rm-embed-container ul ul{
+    padding-inline-start: 0;
+}
+
 /* STYLES FOR THE "KEY PHRASES"*/
 
 .key {
