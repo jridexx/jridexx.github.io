@@ -209,9 +209,10 @@ footer a {
 /* ROAM BLOCKEMBED STYLE AND BLOCKREF STYLE */
 
 .rm-embed-container {
+    background-color: var(--bg-color);
     position: relative !important;
     display: block !important;
-    padding: 16px 0 !important;
+    padding: 0 !important;
     margin: 0 !important;	
 }
 
