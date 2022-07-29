@@ -206,6 +206,19 @@ footer a {
     font-size: 0.9em;
 }
 
+/* ROAM BLOCKEMBED STYLE AND BLOCKREF STYLE */
+
+.rm-embed-container {
+    position: relative;
+    display: block;
+    padding: 16px 0;
+    margin: 0;	
+}
+
+.rm-embed-link {
+    display: none;
+}
+
 /* STYLES FOR THE "KEY PHRASES"*/
 
 .key {
