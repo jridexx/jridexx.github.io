@@ -242,6 +242,19 @@ footer a {
     text-align: center;
 }
 
+.lowkey {
+    margin-block-start: 2em !important;
+    margin-block-end: 2em !important;
+    width: 90% !important;
+}
+
+.lowkey p {
+   font-style: italic !important;
+   font-weight: bold !important;
+   font-family: 'Cormorant SC';
+}
+
+
 .finalkey {
     margin-block-start: 2em !important;
     margin-block-end: 2em !important;
