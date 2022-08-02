@@ -225,6 +225,10 @@ footer a {
     padding-inline-start: 0;
 }
 
+.rm-embed-container ul ul ul{
+    padding-inline-start: 20px;
+}
+
 /* STYLES FOR THE "KEY PHRASES"*/
 
 .key {
