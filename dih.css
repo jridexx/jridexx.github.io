@@ -283,6 +283,17 @@ footer a {
     text-align: center;
 }
 
+.diamond1 {
+    margin-block-start: 2em !important;
+    margin-block-end: 1em !important;
+}
+
+.diamond:before {
+    content: '✦';
+    color: var(--mid-salmon);
+    text-align: center;
+}
+
 /* STYLES FOR iFRAMES */
 
 .iframe-wrapper {
