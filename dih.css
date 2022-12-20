@@ -420,7 +420,7 @@ li a {
 
 li a:hover {
     color: var(--salmon-color);
-    text-decoration: none;
+    text-decoration-thickness: 0px;
 }
 
 .roam-block img {
