@@ -36,3 +36,14 @@ window.addEventListener("load", function(){
     list.removeChild(listItem);
   }); 
 });
+
+// A function to remove references if there's no references
+
+window.addEventListener("load", function(){
+  
+  const references = document.getElementsByClassName("references")[0];
+  if (references = undefined) {
+    references.style.display="none";
+  }
+  
+});
