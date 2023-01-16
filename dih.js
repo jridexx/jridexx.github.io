@@ -34,6 +34,12 @@ window.addEventListener("load", function(){
     listItem = e.parentNode;
     list = listItem.parentNode;
     list.removeChild(listItem);
+  });
+  
+  document.querySelectorAll('[data-reference$="Public"]').forEach(function(e) {
+    listItem = e.parentNode;
+    list = listItem.parentNode;
+    list.removeChild(listItem);
   }); 
 });
 
