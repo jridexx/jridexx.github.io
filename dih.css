@@ -524,6 +524,22 @@ ul ul ul {
   border-top: 1px solid var(--divider-color);
 }
 
+/* TABLE OF CONTENT STYLES */
+
+.toc {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    width: 35%%;
+    font-size: 0.9rem;
+    margin: auto;
+    text-align: center;
+}
+
+.toc .roam-block {
+    text-align: center;
+}
+
 /*RESPONSIVE STYLES: SMARTPHONE*/
 
 @media only screen and (max-width:600px){
@@ -608,6 +624,10 @@ ul ul ul {
         .footerdiv {
            display: none;
         }
+	
+	.toc {
+	  width: 60%;
+	}
 
 
 }
