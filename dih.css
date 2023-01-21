@@ -529,7 +529,7 @@ ul ul ul {
 .toc {
     display: flex;
     flex-direction: column;
-    background-color: #eee;
+    background-color: #f4f4f4;
     width: 35%;
     font-size: 0.9rem;
     margin: auto;
@@ -697,6 +697,10 @@ ul ul ul {
 	
 	.content-footer {
           width: 85%;
+	}
+	
+	.toc {
+	  width: 40%;
 	}
 
 
