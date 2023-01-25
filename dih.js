@@ -45,7 +45,7 @@ window.addEventListener("load", function(){
     }
 });
 
-/* window.addEventListener("load", function(){
+window.addEventListener("load", function(){
   
   var list, i, switching, b, shouldSwitch;
   list = document.getElementById("ref_list");
@@ -80,4 +80,4 @@ window.addEventListener("load", function(){
       switching = true;
     }
   }
-}); */
+});
