@@ -80,4 +80,4 @@ window.addEventListener("load", function(){
       switching = true;
     }
   }
-}
+});
