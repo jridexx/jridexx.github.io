@@ -9,19 +9,17 @@
   
 }); */
 
-// Two functions: 1) Sets attribute to reference list and 2) Adds roam-block class to list elements
-
-window.addEventListener("load", function(){
-  document.querySelectorAll(".references ul")[0].setAttribute("id", "ref_list");
-  document.querySelectorAll(".references li").forEach(function(e) {
-      e.classList.add("roam-block");
-    });
-});
-
-//A function to add an attribute by selector
+// A function to fix the references
 
 window.addEventListener("load", function(){
   
+  //Sets an element ID to the reference list
+  document.querySelectorAll(".references ul")[0].setAttribute("id", "ref_list");
+  
+  //Adds roam-block class to list elements
+  document.querySelectorAll(".references li").forEach(function(e) {
+      e.classList.add("roam-block");
+    });
 });
 
 //A function to remove references starting with Nexus in two steps, adding attribute, reading attribute
@@ -54,9 +52,8 @@ window.addEventListener("load", function(){
 
 window.addEventListener("load", function(){
   
-  const references = document.getElementsByClassName("references")[0];
-  if (references = undefined) {
-    references.style.display="none";
-  }
+    if(document.querySelectorAll("#ref_list li").length <= 1){
+        document.querySelector(".references").style.display="none";
+    }
   
 });
