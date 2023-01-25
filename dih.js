@@ -45,7 +45,7 @@ window.addEventListener("load", function(){
     }
 });
 
-window.addEventListener("load", function(){
+/* window.addEventListener("load", function(){
   
   var list, i, switching, b, shouldSwitch;
   list = document.getElementById("ref_list");
@@ -59,13 +59,13 @@ window.addEventListener("load", function(){
     b = list.getElementsByTagName("li");
     
     // Loop through all list items:
-    for (i = 0; i < (b.length - 1); i++) {
+    for (i = 1; i < b.length; i++) {
       
       // Start by saying there should be no switching:
       shouldSwitch = false;
       
       /* Check if the next item should switch place with the current item: */
-      if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
+      if (b[i].innerText.toLowerCase() > b[i + 1].innerText.toLowerCase()) {
         
         /* If next item is alphabetically lower than current item, mark as a switch and break the loop: */
         shouldSwitch = true;
@@ -80,4 +80,4 @@ window.addEventListener("load", function(){
       switching = true;
     }
   }
-});
+}); */
