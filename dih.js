@@ -1,30 +1,19 @@
-// A function to show references if there's references (commented out, not used rn)
-
-/* window.addEventListener("load", function(){
-  
-  const references = document.getElementsByClassName("references")[0];
-  if (references != undefined && references.children[1].childElementCount > 0) {
-    references.style.display="block";
-  }
-  
-}); */
-
-// A function to fix the references
-
+// Makes two initial fixes to the references
 window.addEventListener("load", function(){
   
-  //Sets an element ID to the reference list
+  // Sets an element ID to the reference list
   document.querySelectorAll(".references ul")[0].setAttribute("id", "ref_list");
   
-  //Adds roam-block class to list elements
+  // Adds roam-block class to list elements
   document.querySelectorAll(".references li").forEach(function(e) {
       e.classList.add("roam-block");
     });
 });
 
-//A function to remove references starting with Nexus in two steps, adding attribute, reading attribute
-
+// Removes references starting with 'Understanding', 'Ideas', and 'Public'
 window.addEventListener("load", function(){
+  
+  // Sets new attribute to be able to read
   document.querySelectorAll(".references a").forEach(function(e) {
       e.setAttribute("data-reference", e.innerText);
     });
@@ -48,8 +37,7 @@ window.addEventListener("load", function(){
   }); 
 });
 
-// A function to remove references if there's no references
-
+// Removes references section if there's no references to display
 window.addEventListener("load", function(){
   
     if(document.querySelectorAll("#ref_list li").length <= 1){
