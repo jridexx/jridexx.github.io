@@ -9,12 +9,19 @@
   
 }); */
 
-//A function to add a class by selector
+// Two functions: 1) Sets attribute to reference list and 2) Adds roam-block class to list elements
 
 window.addEventListener("load", function(){
+  document.querySelectorAll(".references ul")[0].setAttribute("id", "ref_list");
   document.querySelectorAll(".references li").forEach(function(e) {
       e.classList.add("roam-block");
     });
+});
+
+//A function to add an attribute by selector
+
+window.addEventListener("load", function(){
+  
 });
 
 //A function to remove references starting with Nexus in two steps, adding attribute, reading attribute
