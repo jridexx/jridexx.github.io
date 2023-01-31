@@ -545,6 +545,7 @@ ul ul ul {
 
 	body {
 	   padding: 0.5em;
+	   font-size: 1em !important;
 	}
 
 	body ul {
