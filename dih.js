@@ -30,7 +30,7 @@ window.addEventListener("load", function(){
     list.removeChild(listItem);
   });
   
-  document.querySelectorAll('[data-reference^="Public"]').forEach(function(e) {
+  document.querySelectorAll('[data-reference^="Meta"]').forEach(function(e) {
     listItem = e.parentNode;
     list = listItem.parentNode;
     list.removeChild(listItem);
