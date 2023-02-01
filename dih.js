@@ -45,6 +45,7 @@ window.addEventListener("load", function(){
     }
 });
 
+// Sorts references in alphabetical order
 window.addEventListener("load", function(){
   
   var list, i, switching, b, shouldSwitch;
