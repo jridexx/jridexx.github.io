@@ -248,9 +248,10 @@ footer a {
     text-align: center;
 }
 
-.lowkey {
+.standout {
     margin-block-start: 2em !important;
     margin-block-end: 2em !important;
+    width: 90% !important;
 }
 
 .lowkey p {
