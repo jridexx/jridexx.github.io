@@ -74,10 +74,24 @@ header>div>a {
 }
 
 body {
-    background-color: var(--bg-color);
+   /* background-color: var(--bg-color); */
     color: var(--text-color);
     font-size: 1.1em !important;
     font-family: var(--body-font) !important;
+    background-image: linear-gradient(
+	  330deg,
+	  hsl(180deg 83% 98%) 0%,
+	  hsl(164deg 79% 97%) 6%,
+	  hsl(140deg 69% 96%) 15%,
+	  hsl(98deg 59% 95%) 28%,
+	  hsl(63deg 54% 93%) 42%,
+	  hsl(40deg 89% 93%) 56%,
+	  hsl(30deg 100% 94%) 68%,
+	  hsl(17deg 100% 96%) 78%,
+	  hsl(357deg 100% 97%) 87%,
+	  hsl(336deg 100% 97%) 94%,
+	  hsl(307deg 53% 97%) 100%
+     );
 }
 
 /* CONTENT HEADER AND FOOTER */
