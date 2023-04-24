@@ -82,3 +82,23 @@ window.addEventListener("load", function(){
     }
   }
 });
+
+
+//This is an action for the share button, it copies the URL to the clipboard
+
+shareButton.addEventListener('click', () => {
+  // get the current URL
+  const currentUrl = window.location.href;
+  
+  // select the button element
+  const shareButton = document.querySelector('#share-button');
+  
+  // copy the URL to the clipboard
+  navigator.clipboard.writeText(currentUrl)
+    .then(() => {
+      console.log('URL copied to clipboard');
+    })
+    .catch((error) => {
+      console.error('Failed to copy URL: ', error);
+    });
+});
