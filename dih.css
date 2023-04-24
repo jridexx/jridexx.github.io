@@ -680,6 +680,7 @@ ul ul ul {
 	
 	li a {
            text-underline-offset: 0.2em;
+	   cursor: pointer;
         }
 	
 	#pubdate {
@@ -772,6 +773,7 @@ ul ul ul {
   transition: all .35s ease-Out;
   color: #fff !important;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #button-2:hover {
