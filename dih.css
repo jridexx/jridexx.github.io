@@ -14,8 +14,8 @@
     --mid-salmon: #ef444491;
     --mid-gray: #505050;
     --test-color: #FC21BE;
-    --bquote-color: #FBF3F3;
-    --bquote-border: #E9CBCB;
+    --bquote-color: #ffffff99; /* old color #FBF3F3 */
+    --bquote-border: #EF4444; /* old color #E9CBCB */
     --body-font: "iA Writer Mono S";
 }
 
