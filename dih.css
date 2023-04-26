@@ -436,6 +436,7 @@ li a {
 li a:hover {
     color: var(--salmon-color);
     text-decoration-thickness: 0px;
+    cursor: pointer;
 }
 
 .roam-block img {
