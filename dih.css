@@ -588,6 +588,7 @@ ul ul ul {
 	
 	li a {
            text-underline-offset: 0.2em;
+           cursor: pointer;
         }
 	
 	#oneliner {
@@ -778,6 +779,7 @@ ul ul ul {
 
 #button-2:hover {
   background-color: #ee9f9f !important;
+  cursor: pointer;
 }
 
 /* Test Styles */
