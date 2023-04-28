@@ -60,10 +60,10 @@ header a {
     margin-right: auto;
 }
 
-header>a:hover {
+/*header>a:hover {
     color: var(--salmon-color);
     text-decoration: none;
-}
+}*/
 
 header>div>a {
     font-size: 15px;
@@ -433,11 +433,11 @@ li a {
     text-underline-offset: 0.1em;
 }
 
-li a:hover {
+/*li a:hover {
     color: var(--salmon-color);
     text-decoration-thickness: 0px;
     cursor: pointer;
-}
+}*/
 
 .roam-block img {
     margin: 0 auto;
@@ -778,10 +778,10 @@ ul ul ul {
   cursor: pointer;
 }
 
-#button-2:hover {
+/*#button-2:hover {
   background-color: #ee9f9f !important;
   cursor: pointer;
-}
+}*/
 
 /* Test Styles */
 
