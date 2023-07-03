@@ -18,19 +18,20 @@ window.addEventListener("load", function(){
       e.setAttribute("data-reference", e.innerText);
     });
   
-  document.querySelectorAll('[data-reference^="Understanding"]').forEach(function(e) {
+  document.querySelectorAll('[data-reference^="About"]').forEach(function(e) {
       listItem = e.parentNode;
       list = listItem.parentNode;
       list.removeChild(listItem);
     });
   
-  document.querySelectorAll('[data-reference$="Ideas"]').forEach(function(e) {
+  //Commenting out temporarily
+  /*document.querySelectorAll('[data-reference$="Idea"]').forEach(function(e) {
     listItem = e.parentNode;
     list = listItem.parentNode;
     list.removeChild(listItem);
-  });
+  });*/
   
-  document.querySelectorAll('[data-reference^="Meta"]').forEach(function(e) {
+  document.querySelectorAll('[data-reference^="Topic"]').forEach(function(e) {
     listItem = e.parentNode;
     list = listItem.parentNode;
     list.removeChild(listItem);
