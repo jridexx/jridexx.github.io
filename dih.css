@@ -17,7 +17,7 @@
     --test-color: #FC21BE;
     --bquote-color: #ffffff99; /* old color #FBF3F3 */
     --bquote-border: #EF4444; /* old color #E9CBCB */
-    --body-font: "iA Writer Mono S";
+    --body-font: "Roboto Mono", monospace;
 }
 
 /*Salmon color is applied in many specific tags out of need to override styles coming from static site's libraries*/
