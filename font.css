@@ -1,0 +1,10 @@
+/* define font-face */
+
+@font-face {
+    font-family: 'iA Writer Mono S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterMonoS-Regular.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterMonoS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
