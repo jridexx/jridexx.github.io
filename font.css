@@ -2,9 +2,109 @@
 
 @font-face {
     font-family: 'iA Writer Mono S';
-    src: url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterMonoS-Regular.woff2') format('woff2'),
-        url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterMonoS-Regular.woff') format('woff');
+    src: url('https://jridexx.github.io/iA%20Writer%20Mono/Webfonts/iAWriterMonoS-Regular.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Mono/Webfonts/iAWriterMonoS-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'iA Writer Mono S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Mono/Webfonts/iAWriterMonoS-Bold.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Mono/Webfonts/iAWriterMonoS-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Mono S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Mono/Webfonts/iAWriterMonoS-Italic.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Mono/Webfonts/iAWriterMonoS-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Mono S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Mono/Webfonts/iAWriterMonoS-BoldItalic.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Mono/Webfonts/iAWriterMonoS-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Duo S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterDuoS-Italic.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterDuoS-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Duo S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterDuoS-Bold.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterDuoS-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Duo S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterDuoS-BoldItalic.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterDuoS-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Duo S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterDuoS-Regular.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Duo/Webfonts/iAWriterDuoS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Quattro S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-Regular.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Quattro S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-BoldItalic.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Quattro S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-Italic.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iA Writer Quattro S';
+    src: url('https://jridexx.github.io/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-Bold.woff2') format('woff2'),
+        url('https://jridexx.github.io/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
